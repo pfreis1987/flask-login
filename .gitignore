@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Exclude BD
+migrations
+instance
+*.sqlite
