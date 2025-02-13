@@ -37,7 +37,7 @@ class TestUser(BaseTestCase):
         with self.client:
             self.client.get("/logout", follow_redirects=True)
             response = self.client.post("/login", data=dict(email="ad@min.com", password="foo_bar"), follow_redirects=True,)
-        self.assertIn(b"invalid email and/or password", response.data)
+        self.assertIn(b"Invalid email and/or password", response.data)
 
 if __name__ == "__main__":
     unittest.main()

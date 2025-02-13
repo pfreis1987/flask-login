@@ -6,3 +6,7 @@ FLask-Migrate
 Flask-SQLAlchemy
 Flask-Testing
 python-decouple
+email_validator
+pyotp
+qrcode
+Pillow

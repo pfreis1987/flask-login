@@ -15,6 +15,7 @@ class Config(object):
     WTF_CSRF_ENABLED = True
     DEBUG_TB_ENABLED = False
     DEBUG_TB_INTERCEPT_REDIRECTS = False
+    APP_NAME = config("APP_NAME")
 
 class DevelopmentConfig(Config):
     DEVELOPMENT = True
